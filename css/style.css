@@ -1,0 +1,157 @@
+:root {
+  --top-padding: 5vh;
+  --swiper-height: calc(100vh - var(--top-padding) * 2);
+}
+
+@font-face {
+  font-family: birdmathon;
+  src: url(../fonts/Birdmathon-Regular.ttf);
+}
+
+@font-face {
+  font-family: birdmathon-italic;
+  src: url(../fonts/Birdmathon-Italic.ttf);
+}
+
+@font-face {
+  font-family: bubbles;
+  src: url(../fonts/RubikBubbles-Regular.ttf);
+}
+
+@font-face {
+  font-family: pacifico;
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+  font-family: prosto;
+  src: url(../fonts/ProstoOne-Regular.ttf);
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 105vh;
+}
+
+#confetti-canvas {
+  position:fixed;
+  top: 0;
+  left: 0;
+}
+
+.text-container {
+  height: 100%;
+}
+
+.text {
+  margin: auto;
+  width: 80%;
+  position: relative;
+  font-family: pacifico;
+  font-size: 8.33vh;
+  color: white;
+  /* color: #fcde47; */
+}
+
+.text-first {
+  top: 20%;
+  /* font-size: 70px; */
+  font-size: 11vh;
+
+}
+
+.text-castle {
+  top: 5%;
+}
+
+.text-portal {
+  top: 70%;
+  /* font-size: 65px; */
+  font-size: 9.02vh;
+}
+
+.text-prince {
+  color: black;
+}
+
+.text-undertale {
+  width: 90%;
+  top: 70%;
+  font-family: prosto;
+  /* font-size: 43px; */
+  font-size: 5.92vh;
+}
+
+.text-last {
+  top: 20%;
+  /* font-size: 90px; */
+  font-size: 12.5vh;
+  color: black;
+}
+
+.swiper {
+  padding-top: var(--top-padding);
+  height: var(--swiper-height);
+  /* width: 105.37158vh; */
+  /* width: 117.0795vh; */
+  width: calc(1.170795 * var(--swiper-height));
+}
+
+.swiper-wrapper {
+}
+
+.swiper-slide {
+}
+
+.swiper-image-main {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.swiper-image-first {
+  background-image: url("../images/slide-1.gif");
+  background-position: center 10%;
+}
+
+.swiper-image-text {
+  background-image: url("../images/slide-1-2.jpg");
+  background-position: 25% 0;
+}
+
+.swiper-image-castle {
+  background-image: url("../images/castle.png");
+  background-position: 40% 0;
+}
+
+.swiper-image-portal {
+  background-image: url("../images/portal-cake.jpg");
+}
+
+.swiper-image-prince {
+  /* background-image: url("../images/little-prince-2.jpg"); */
+  background-image: url("../images/little-prince-1.webp");
+}
+
+.swiper-image-undertale {
+  background-image: url("../images/dundertale.png");
+}
+
+.swiper-image-livesey {
+  background-image: url("../images/livesey.jpg");
+  background-position: 0 0;
+}
+
+.swiper-image-last {
+  background-image: url("../images/last-slide.jpg");
+}
+
+.slider-image {
+}

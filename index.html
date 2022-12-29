@@ -4,10 +4,77 @@
   <meta charset="UTF-8">
   <title>С днем Рожденья!!!</title>
 
+  <bgsound src="music/undertale.mp3" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Тест</h1>
-  <img src="images/dundertale.png" alt="Undertale">
+
+  <!-- <iframe src="music/undertale.mp3" allow="autoplay" style="display:none" id="iframeAudio"> -->
+  <!-- </iframe> --> 
+  <audio autoplay loop  id="playAudio">
+      <source src="music/undertale.mp3">
+  </audio>
+
+  <!-- <embed src="./music/undertale.mp3" loop="true" autostart="true" width="0" height="0"> -->
+
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide swiper-image swiper-image-first">
+      </div>
+      <div class="swiper-slide swiper-image swiper-image-text">
+        <div class="text-container">
+          <div class="text text-first">Дорогая Лена, от всей души поздравляю тебя и желаю ...</div>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-image swiper-image-castle">
+        <div class="text-container">
+          <div class="text text-castle">Быть счастливой и наслаждаться красотой этого мира!</div>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-image swiper-image-portal">
+        <div class="text-container">
+          <div class="text text-portal">Чтобы сбывались все мечты!</div>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-image swiper-image-prince">
+        <div class="text-container">
+          <div class="text text-prince">Никогда не стареть душой и быть молодой до ста лет!</div>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-image-main swiper-image-undertale">
+        <div class="text-container">
+          <div class="text text-undertale">Непревзойденной решимости при преодолении трудностей!</div>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-image swiper-image-livesey">
+        <div class="text-container">
+          <div class="text text-livesey">Чувства юмора и оптимизма! :D</div>
+        </div>
+      </div>
+      <div class="swiper-slide swiper-image swiper-image-last">
+        <div class="text-container">
+          <div class="text text-last">Короче, с Днем Рождения!!!</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Libraries -->
+  <script src="scripts/confetti.js"></script>
+  <script src="scripts/swiper-bundle.min.js"></script>
+  
+  <!-- Scripts -->
+  <script src="scripts/slider.js"></script>
 </body>
 </html>
