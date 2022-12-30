@@ -155,3 +155,16 @@ body {
 
 .slider-image {
 }
+
+.swiper-button:active {
+  background-color: none;
+}
+
+.swiper-button-prev {
+  padding-left: 10vh;
+}
+
+.swiper-button-next {
+  padding-right: 10vh;
+}
+
