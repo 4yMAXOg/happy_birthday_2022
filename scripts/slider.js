@@ -11,6 +11,12 @@ const swiper = new Swiper('.swiper', {
   autoHeight: false,
   preloadImages: true,
   updateOnImagesReady: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });
 
 startConfetti();
